@@ -1,3 +1,3 @@
-FROM php:8.2.6-apache
+FROM php:8.2.8-apache
 
 #install extensions
