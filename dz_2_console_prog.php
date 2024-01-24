@@ -37,10 +37,10 @@ $option = trim(fgets(STDIN));
                 $a2 = trim(fgets(STDIN));
                 if (is_numeric($a2)) {
                     echo trim("Прекрасно! Вы ввели второй аргумент: $a2 \n> И третий аргумент: \n");
-                } else {
-                    echo trim("Ошибка! Ввести можно только число, повторите попытку ещё раз. \n");
-                    return;
-                }
+                    } else {
+                        echo trim("Ошибка! Ввести можно только число, повторите попытку ещё раз. \n");
+                        return;
+                    }
                 $a3 = trim(fgets(STDIN));
                 if (is_numeric($a3)) {
                     echo trim("Получилось! Вы ввели такие аргументы: $a1,$a2,$a3. Для получения результата, нажмите ENTER \n");
