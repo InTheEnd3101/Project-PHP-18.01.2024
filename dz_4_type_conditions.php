@@ -6,17 +6,17 @@
 echo trim("Приветcтвую! Введите число от 1 до 6 и получите результат:");
 echo "\n";
 $value = (string)fgets(STDIN);
-        if (1 == $value) {
+        if (1 === $value) {
             echo 'green' . PHP_EOL;
-        } elseif (2 == $value) {
+        } elseif (2 === $value) {
             echo 'red' . PHP_EOL;
-        } elseif (3 == $value) {
+        } elseif (3 === $value) {
             echo 'blue' . PHP_EOL;
-        } elseif (4 == $value) {
+        } elseif (4 === $value) {
             echo 'brown' . PHP_EOL;
-        } elseif (5 == $value) {
+        } elseif (5 === $value) {
             echo 'violet' . PHP_EOL;
-        } elseif (6 == $value) {
+        } elseif (6 === $value) {
             echo 'black' . PHP_EOL;
         } else {
             echo 'white' . PHP_EOL;
