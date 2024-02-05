@@ -2,7 +2,11 @@
 
 // ДЗ 6. Користувацькі функції
 // 1. Написати програму на PHP, яка містить користувацьку функцію для обчислення площі кола та демонструє використання передачі даних у функцію за допомогою параметрів.
+<<<<<<< HEAD
 
+=======
+/*
+>>>>>>> 529f47cbf72f2d4eb4d25ba0b7a5c3720a468a78
 $radius = 25;
 function circleArea($radius) {
     $pi = 3.1415;
@@ -11,7 +15,11 @@ function circleArea($radius) {
 }
 echo PHP_EOL;
 echo 'Площа круга: ' . circleArea($radius) . PHP_EOL;
+<<<<<<< HEAD
 
+=======
+*/
+>>>>>>> 529f47cbf72f2d4eb4d25ba0b7a5c3720a468a78
 
 // 2. Написати програму на PHP, яка приймає число і підносить його до ступеню.
 /*function exponentiate($base, $exponent) {
@@ -41,11 +49,19 @@ echo PHP_EOL . $increasedNumber . PHP_EOL;
 echo $number . PHP_EOL;*/
 
 // 3.2. Функція, яка змінює передане число
+<<<<<<< HEAD
 /*function modifyNumber(&$number) {
+=======
+function modifyNumber(&$number) {
+>>>>>>> 529f47cbf72f2d4eb4d25ba0b7a5c3720a468a78
     $number += 1; // Додаємо 1 до значення змінної, переданої за посиланням
 }
 
 $number = 5;
 modifyNumber($number);
 
+<<<<<<< HEAD
 echo PHP_EOL . $number . PHP_EOL;*/
+=======
+echo PHP_EOL . $number . PHP_EOL;
+>>>>>>> 529f47cbf72f2d4eb4d25ba0b7a5c3720a468a78
