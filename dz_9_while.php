@@ -29,9 +29,9 @@ echo "Факториал числа 5 равен: " . $factorial . PHP_EOL;*/
 
 $number = 1;
 
-while ($number <= 20) { // В цикле будем проверять, не дошли ли мы до 20
-    if ($number % 2 == 0) { // Проверяем, является ли текущее число четным
-        echo $number . ' ' . PHP_EOL; // Если четное, выводим его
+while ($number <= 20) {
+    if ($number % 2 == 0) {
+        echo $number . ' ' . PHP_EOL; //
     }
-    $number++; // Увеличиваем число на 1
+    $number++; // 
 }
