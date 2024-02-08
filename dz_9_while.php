@@ -9,7 +9,7 @@ while ($i <= 10) {
     if ($i < 10) {
         echo ", " . PHP_EOL;
     }
-    $i++; 
+    $i++;
 }
 echo PHP_EOL;*/
 
