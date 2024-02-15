@@ -2,7 +2,7 @@
 
 // ДЗ 10. Генератор Фібоначчі
 
-function fibonacciGenerator($maxValue)
+function fibonacciGenerator(int $maxValue)
 {
     $current = 0;
     $next = 1;
